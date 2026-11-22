@@ -363,7 +363,7 @@ class BankATM:
 
         tk.Button(
             tombol_transaksi,
-            text="Deposit",
+            text="Tarik",
             command=lambda: self.pilih_nominal("Tarik"),
             bg="#e4575b",
             fg="white",
